@@ -1,0 +1,23 @@
+#widget {
+  font-size: 15px;
+  .name {
+    width: 30%;
+    float: left;
+    padding: 0 0 0 15px;
+  }
+  .type {
+    width: 30%;
+    float: left
+  }
+  .icons_wrapper {
+    color: #AAAEB3;
+    width: 35%;
+    height: 26px;
+    float: left;
+    * {
+      cursor: pointer;
+      float: left;
+      margin-left: 20px
+    }
+  }
+}

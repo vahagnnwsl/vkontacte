@@ -1,0 +1,91 @@
+@import "global";
+@import "variables";
+@import "classes";
+@import "../components/Header/Group";
+@import "../components/Menu/Menu";
+@import "../components/Header/Header";
+@import "../components/GroupWidgets/GroupWidgets";
+@import "../components/GroupWidgets/Widget";
+@import "../components/WidgetCatalog/Catalog";
+@import "../components/Subscription/Subscription";
+@import "../components/Help/Help";
+@import "../components/WidgetCreator/WidgetCreator";
+@import "../components/TargetingForm/TargetingForm";
+@import "../components/WidgetForms/DiscountWidget/DiscountWidget";
+@import "../components/WidgetForms/Header";
+@import "../components/WidgetForms/Footer";
+@import "../components/WidgetForms/WidgetTitle";
+@import "../components/WidgetForms/ModalEdit";
+@import "../components/WidgetForms/ImageUploadModal";
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+.Header {
+  padding: 10px 12px !important;
+}
+
+.Panel__in {
+  background-color: $body_bg !important;
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.Header__content {
+  color: $txt_main_color !important;
+}
+
+.Group {
+  background-color: $content_hover !important;
+  &::before, &::after {
+    display: none;
+  }
+}
+
+.content {
+  width: 67%;
+  overflow: auto;
+  float: left;
+  height: 515px;
+}
+
+.switch {
+  width: 40px;
+  height: 18px;
+  background-color: $bg_content_edit;
+  border-radius: 9px;
+  position: relative;
+  &_checkbox {
+    display: none
+  }
+  &_trigger {
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: $txt_light_gray_color;
+    position: absolute;
+    top: 2px;
+    left: -17px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .24);
+  }
+}
+
+.switch_active {
+  background-color: $txt_light_gray_color;
+  .switch_trigger {
+    background-color: $yellow;
+    left: unset;
+    right: 3px;
+  }
+}
+
+.widget_form {
+  border: 1px solid $txt_main_color;
+  border-radius: 6px;
+  margin: 0 25px;
+}

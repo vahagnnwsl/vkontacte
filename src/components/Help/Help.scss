@@ -1,0 +1,38 @@
+#help {
+  .accordion {
+    &_btn {
+      padding: 14px 50px 14px 22px;
+      font-size: 14px;
+      line-height: 18px;
+      cursor: pointer;
+      color: $txt_light_gray_color;
+      .icon {
+        float: right;
+        color: $txt_light_gray_color;
+      }
+      &:hover {
+        color: $yellow;
+        background-color: $additional_bg_color;
+      }
+    }
+    &_content {
+      margin: 5px 0 10px 22px;
+      color: $light-gray;
+      font-size: 12px;
+      line-height: 16px;
+      display: none;
+    }
+
+  }
+  .accordion:not(:last-child) {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.22);
+  }
+  .open {
+    .icon {
+      transform: rotate(90deg);
+    }
+  }
+  .content-active {
+    display: block;
+  }
+}

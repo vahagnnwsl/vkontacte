@@ -1,0 +1,14 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.hidden {display: none}
+
+.align_center {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+

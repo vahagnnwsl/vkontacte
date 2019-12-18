@@ -1,0 +1,129 @@
+#subscription {
+  .content {
+    padding: 24px 30px;
+    width: unset;
+    overflow: unset;
+    float: none;
+    height: unset;
+    .heading_content {
+      padding-bottom: 35px;
+      &_title {
+        float: left;
+        color: $light-gray;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .date_switch_wrapper {
+        float: right;
+        font-size: 13px;
+        color: $light-gray;
+        width: 180px;
+        border: 1px solid $light-gray;
+        border-radius: 16px;
+        cursor: pointer;
+      }
+      .month, .year {
+        float: left;
+        text-align: center;
+        width: 90px;
+        padding: 9px 0;
+      }
+
+      .month {border-radius: 12px 0 0 12px}
+      .year {border-radius: 0 12px 12px 0}
+
+      .selected {
+        color: white;
+        cursor: initial;
+        background-color: $light-gray;
+      }
+    }
+  }
+
+  .subscription {
+    height: 130px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 0 6px;
+    margin-bottom: 23px;
+    padding: 30px 25px 5px;
+    &_icon {
+      background: url('https://prod.spycatdigital.ru/static/media/blue-card.a8f19c6e.svg') center no-repeat;
+      width: 24px;
+      height: 18px;
+    }
+    &_description {
+      margin: 0 25px;
+      width: 200px;
+      h5 {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 500;
+      }
+      p {
+        color: $light-gray;
+        font-size: 12px;
+        line-height: 17px;
+        white-space: pre-line;
+      }
+    }
+    &_details {
+      display: flex;
+      .list {
+        width: 200px;
+        li {
+          margin-bottom: 11px;
+          padding-left: 16px;
+          color: $light-gray;
+          opacity: 0.4;
+          font-size: 12px;
+          line-height: 14px
+        }
+        .active {opacity: 1}
+      }
+    }
+    &_price {
+      &_secondary {
+        margin-right: 7px;
+        color: #FF0000;
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: line-through;
+        font-weight: 700;
+      }
+      &_primary {
+        display: inline-block;
+        font-size: 26px;
+        line-height: 20px;
+      }
+      &_description {
+        margin-bottom: 14px;
+        color: $light-gray;
+        font-size: 12px;
+      }
+    }
+  }
+  .footer {
+
+    &_txt {
+      float: left;
+      color: $light-gray;
+      font-size: 12px;
+      line-height: 54px;
+    }
+    .checkboxes_wrapper {
+      float: right;
+      .Checkbox__content {
+        color: $light-gray;
+        cursor: pointer;
+        font-size: 12px
+      }
+      .link {
+        text-decoration: underline;
+        color: rgb(42, 88, 133);
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+#menu {
+  width: 30%;
+  font-size: 13px;
+  margin: 10px 1%;
+  float: left;
+  height: 515px;
+  .item {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    z-index: 10000;
+    &:hover {
+      cursor: pointer;
+      display: block;
+      background-color: $additional_bg_color!important;
+    }
+    &:focus {
+      background-color: $additional_bg_color;
+    }
+    &:focus:before {
+      content: "";
+      width: 3px;
+      height: 44px;
+      display: inline-block;
+      background-color: #5181B8;
+      position: absolute;
+    }
+  }
+  .Cell__main {padding: 11px 8px 11px 15px}
+  .Cell__children {
+    color: $txt_light_gray_color;
+    font-size: 13px;
+    &:hover {
+      color: $yellow !important;
+    }
+  }
+  .active {
+    background-color: #F0F2F5;
+  }
+  .Tappable {
+    background-color: $content_hover;
+    &:hover {background-color: $additional_bg_color!important;}
+  }
+  .menu_icon {width: 15px}
+}

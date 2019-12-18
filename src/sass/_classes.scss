@@ -1,0 +1,14 @@
+.btn-pink {
+  border: none;
+  border-radius: 5px;
+  background-color: $txt_pink_color;
+  padding: 7px 25px;
+  color: $txt_white_color;
+  font-size: $font-14;
+  font-family: $roboto-bold;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    background-color: #dc2a72;
+  }
+}

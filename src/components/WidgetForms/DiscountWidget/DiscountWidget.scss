@@ -1,0 +1,114 @@
+.widget_form_cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 13px;
+}
+.widget_form_card {
+  width: 160px;
+  margin-left: 15px!important;
+  padding-bottom: 20px!important;
+  z-index: 1;
+
+  .widget_link {
+    text-decoration: none;
+    color: $txt_light_gray_color;
+    display: block;
+    &:visited {color: #fff}
+  }
+  .widget_card_img {
+    width: inherit;
+    position: relative;
+    height: 240px;
+    border-radius: 2px;
+    background-color: $additional_bg_color;
+    .camera_icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto
+    }
+    .img {
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+    }
+    .remove_icon {
+      position: absolute;
+      right: 35px;
+      top: 5px;
+      background-color: rgba(0, 0, 0, 0.35);
+      border-radius: 2px;
+      padding: 0!important;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+  .widget_card_title {
+    font-size: 12.5px;
+    color: #fff;
+    padding-top: 5px;
+  }
+  .widget_card_desc {
+    color: $txt_light_gray_color;
+    font-size: 12px;
+    padding-top: 2px;
+  }
+  .widget_card_link {
+    color: $txt_light_gray_color;
+    line-height: 15px;
+    font-size: 12.5px;
+    text-decoration: underline;
+  }
+
+  .Icon--reorder_24 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 2px;
+    padding: 0!important;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}
+
+.widget_footer {
+  display: block;
+  padding: 13px 0 14px;
+  cursor: pointer;
+  color: $txt_white_color;
+  background-color: $content_bg;
+  border-top: 1px solid $txt_main_color;
+  border-radius: 0 0 4px 4px;
+  -o-transition: background-color 40ms linear;
+  transition: background-color 40ms linear;
+  font-size: 12.5px;
+  white-space: nowrap;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  line-height: 15px;
+  text-align: center;
+  &:hover {
+    background-color: $additional_bg_color;
+  }
+}
+
+.widget_form_card:first-child,
+.widget_form_card:nth-child(4),
+.widget_form_card:nth-child(7),
+.widget_form_card:nth-child(10) {
+  margin-left: 0!important;
+}
+
+
+
+#discount_widget {
+  .Cell {line-height: initial}
+  .Cell--ios .Cell__in {padding: 0}
+  .Cell--ios .Cell__main {padding: 0;}
+}

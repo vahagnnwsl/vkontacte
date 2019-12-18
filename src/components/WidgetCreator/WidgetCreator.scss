@@ -1,0 +1,31 @@
+#widgetForm {
+  width: 60%;
+  float: left;
+  margin: 10px 1%;
+  background-color: $content_bg!important;
+}
+
+.save_btn {
+  float: right;
+  display: inline-block;
+  margin: 20px 50px 20px 0;
+  padding: 0 25px;
+  line-height: 30px;
+}
+
+.new_tile_btn {
+  min-height: 292px;
+  display: flex;
+  flex-flow: row nowrap;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  border: 1px dashed $txt_main_color;
+  border-radius: 7px;
+  background-color: $content_hover;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+}

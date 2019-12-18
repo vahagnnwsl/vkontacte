@@ -1,0 +1,30 @@
+.catalog_item {
+  .widget_description {
+    display: inline-flex;
+    &_img {
+      width: 415px;
+      flex-shrink: 0;
+      height: auto;
+      box-shadow: rgba(0, 0, 0, 0.16) 0 0 15px;
+      margin: 0 25px 0 20px;
+    }
+    &_wrapper {
+      &_title {
+        padding-top: 15px;
+        font-size: 17px;
+        color: $txt_white_color;
+      }
+      &_detail {
+        line-height: 22px;
+        padding: 15px 0;
+        font-size: 14px;
+        color: $txt_light_gray_color;
+      }
+      &_btn {
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: $txt_pink_color;
+      }
+    }
+  }
+}

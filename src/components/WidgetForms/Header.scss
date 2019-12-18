@@ -1,0 +1,28 @@
+.widget_header {
+  padding: 20px;
+  &_name {
+    font-size: 13px;
+    line-height: 15px;
+    color: $light-gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    float: left;
+  }
+  .switch_wrapper {
+    display: flex;
+    float: right;
+    .switch_txt {
+      color: $light-gray;
+      font-size: 13px;
+      line-height: 15px;
+      padding-right: 20px;
+    }
+    .switch {
+      cursor: pointer;
+      margin: 0;
+      &_trigger {
+        left: 4px
+      }
+    }
+  }
+}
