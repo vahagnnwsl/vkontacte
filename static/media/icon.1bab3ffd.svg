@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+    <defs>
+        <clipPath id="clip-icon_load2">
+            <rect width="75" height="75"/>
+        </clipPath>
+    </defs>
+    <g id="icon_load2" clip-path="url(#clip-icon_load2)">
+        <rect width="75" height="75" fill="#fff"/>
+        <g id="Group_2138" data-name="Group 2138" transform="translate(-10346.556 4370)">
+            <rect id="Rectangle_220" data-name="Rectangle 220" width="17.317" height="29.594" rx="3" transform="translate(10354.556 -4347.506)" fill="#5181b8"/>
+            <rect id="Rectangle_221" data-name="Rectangle 221" width="17.317" height="29.594" rx="3" transform="translate(10375.119 -4347.506)" fill="#eaecef"/>
+            <rect id="Rectangle_222" data-name="Rectangle 222" width="17.317" height="29.594" rx="3" transform="translate(10395.683 -4347.506)" fill="#eaecef"/>
+            <rect id="Rectangle_223" data-name="Rectangle 223" width="29.222" height="3.247" rx="1.623" transform="translate(10354.556 -4354)" fill="#eaecef"/>
+            <rect id="Rectangle_224" data-name="Rectangle 224" width="17.317" height="3.247" rx="1.623" transform="translate(10354.556 -4313.955)" fill="#eaecef"/>
+            <rect id="Rectangle_225" data-name="Rectangle 225" width="17.317" height="3.247" rx="1.623" transform="translate(10375.119 -4313.955)" fill="#eaecef"/>
+            <rect id="Rectangle_226" data-name="Rectangle 226" width="17.317" height="3.247" rx="1.623" transform="translate(10395.683 -4313.955)" fill="#eaecef"/>
+        </g>
+    </g>
+</svg>
