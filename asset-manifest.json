@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/vkontacte/static/css/main.83446c92.chunk.css",
-    "main.js": "/vkontacte/static/js/main.1b7902ed.chunk.js",
-    "main.js.map": "/vkontacte/static/js/main.1b7902ed.chunk.js.map",
+    "main.css": "/vkontacte/static/css/main.e1a58d9f.chunk.css",
+    "main.js": "/vkontacte/static/js/main.7c069ddd.chunk.js",
+    "main.js.map": "/vkontacte/static/js/main.7c069ddd.chunk.js.map",
     "runtime-main.js": "/vkontacte/static/js/runtime-main.af7fb3bc.js",
     "runtime-main.js.map": "/vkontacte/static/js/runtime-main.af7fb3bc.js.map",
     "static/css/2.2cfa1b23.chunk.css": "/vkontacte/static/css/2.2cfa1b23.chunk.css",
-    "static/js/2.e9a85796.chunk.js": "/vkontacte/static/js/2.e9a85796.chunk.js",
-    "static/js/2.e9a85796.chunk.js.map": "/vkontacte/static/js/2.e9a85796.chunk.js.map",
+    "static/js/2.d35a010c.chunk.js": "/vkontacte/static/js/2.d35a010c.chunk.js",
+    "static/js/2.d35a010c.chunk.js.map": "/vkontacte/static/js/2.d35a010c.chunk.js.map",
     "index.html": "/vkontacte/index.html",
-    "precache-manifest.b32b30762e7532ba41748edc3c7c6dac.js": "/vkontacte/precache-manifest.b32b30762e7532ba41748edc3c7c6dac.js",
+    "precache-manifest.54b2c968b059c12ccf7e713ec2c0f5f0.js": "/vkontacte/precache-manifest.54b2c968b059c12ccf7e713ec2c0f5f0.js",
     "service-worker.js": "/vkontacte/service-worker.js",
     "static/css/2.2cfa1b23.chunk.css.map": "/vkontacte/static/css/2.2cfa1b23.chunk.css.map",
-    "static/css/main.83446c92.chunk.css.map": "/vkontacte/static/css/main.83446c92.chunk.css.map",
-    "static/js/2.e9a85796.chunk.js.LICENSE": "/vkontacte/static/js/2.e9a85796.chunk.js.LICENSE",
+    "static/css/main.e1a58d9f.chunk.css.map": "/vkontacte/static/css/main.e1a58d9f.chunk.css.map",
+    "static/js/2.d35a010c.chunk.js.LICENSE": "/vkontacte/static/js/2.d35a010c.chunk.js.LICENSE",
     "static/media/avatar.png": "/vkontacte/static/media/avatar.6533e6d0.png",
     "static/media/icon.svg": "/vkontacte/static/media/icon.1bab3ffd.svg",
     "static/media/user_icon.svg": "/vkontacte/static/media/user_icon.9f87697c.svg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.af7fb3bc.js",
     "static/css/2.2cfa1b23.chunk.css",
-    "static/js/2.e9a85796.chunk.js",
-    "static/css/main.83446c92.chunk.css",
-    "static/js/main.1b7902ed.chunk.js"
+    "static/js/2.d35a010c.chunk.js",
+    "static/css/main.e1a58d9f.chunk.css",
+    "static/js/main.7c069ddd.chunk.js"
   ]
 }
