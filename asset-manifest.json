@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vkontacte/static/css/main.83446c92.chunk.css",
-    "main.js": "/vkontacte/static/js/main.52695764.chunk.js",
-    "main.js.map": "/vkontacte/static/js/main.52695764.chunk.js.map",
+    "main.js": "/vkontacte/static/js/main.1b7902ed.chunk.js",
+    "main.js.map": "/vkontacte/static/js/main.1b7902ed.chunk.js.map",
     "runtime-main.js": "/vkontacte/static/js/runtime-main.af7fb3bc.js",
     "runtime-main.js.map": "/vkontacte/static/js/runtime-main.af7fb3bc.js.map",
     "static/css/2.2cfa1b23.chunk.css": "/vkontacte/static/css/2.2cfa1b23.chunk.css",
     "static/js/2.e9a85796.chunk.js": "/vkontacte/static/js/2.e9a85796.chunk.js",
     "static/js/2.e9a85796.chunk.js.map": "/vkontacte/static/js/2.e9a85796.chunk.js.map",
     "index.html": "/vkontacte/index.html",
-    "precache-manifest.2618c5a469389d04dd648cac268a8b9e.js": "/vkontacte/precache-manifest.2618c5a469389d04dd648cac268a8b9e.js",
+    "precache-manifest.b32b30762e7532ba41748edc3c7c6dac.js": "/vkontacte/precache-manifest.b32b30762e7532ba41748edc3c7c6dac.js",
     "service-worker.js": "/vkontacte/service-worker.js",
     "static/css/2.2cfa1b23.chunk.css.map": "/vkontacte/static/css/2.2cfa1b23.chunk.css.map",
     "static/css/main.83446c92.chunk.css.map": "/vkontacte/static/css/main.83446c92.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.2cfa1b23.chunk.css",
     "static/js/2.e9a85796.chunk.js",
     "static/css/main.83446c92.chunk.css",
-    "static/js/main.52695764.chunk.js"
+    "static/js/main.1b7902ed.chunk.js"
   ]
 }
