@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0097474a85d6104aa172c69f27552566",
+    "revision": "945057dff5c99d5e258dccd9ffe4411f",
     "url": "/vkontacte/index.html"
   },
   {
-    "revision": "34476d4695589c4f29bb",
+    "revision": "771b16fbcb98817fccda",
     "url": "/vkontacte/static/css/2.2cfa1b23.chunk.css"
   },
   {
-    "revision": "01b8049565bf063edb08",
-    "url": "/vkontacte/static/css/main.e1a58d9f.chunk.css"
+    "revision": "233046699f75ba736199",
+    "url": "/vkontacte/static/css/main.508bdee8.chunk.css"
   },
   {
-    "revision": "34476d4695589c4f29bb",
-    "url": "/vkontacte/static/js/2.d35a010c.chunk.js"
+    "revision": "771b16fbcb98817fccda",
+    "url": "/vkontacte/static/js/2.ee204e4c.chunk.js"
   },
   {
     "revision": "71ed1254094c63f4cbac8e6c5a7785c7",
-    "url": "/vkontacte/static/js/2.d35a010c.chunk.js.LICENSE"
+    "url": "/vkontacte/static/js/2.ee204e4c.chunk.js.LICENSE"
   },
   {
-    "revision": "01b8049565bf063edb08",
-    "url": "/vkontacte/static/js/main.7c069ddd.chunk.js"
+    "revision": "233046699f75ba736199",
+    "url": "/vkontacte/static/js/main.f0c1af97.chunk.js"
   },
   {
     "revision": "42e73546dc84c2977f2c",
